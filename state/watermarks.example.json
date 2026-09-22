@@ -1,0 +1,11 @@
+{
+  "_comment": "示例形状；复制为 state/watermarks.json 后填入真实 chat_id。勿提交含真实 ID 的水位文件。",
+  "chats": {
+    "oc_REPLACE_WITH_CHAT_ID": {
+      "name": "示例值班群",
+      "last_message_id": null,
+      "last_create_time": null,
+      "updated_at": null
+    }
+  }
+}

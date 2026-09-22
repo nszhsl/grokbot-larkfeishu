@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "lark-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@larksuiteoapi/lark-mcp",
+        "mcp",
+        "-t",
+        "im.v1.message.create,im.v1.message.list,im.v1.chat.list",
+        "-l",
+        "zh"
+      ],
+      "env": {
+        "APP_ID": "YOUR_APP_ID",
+        "APP_SECRET": "YOUR_APP_SECRET",
+        "LARK_DOMAIN": "https://open.feishu.cn"
+      }
+    }
+  }
+}

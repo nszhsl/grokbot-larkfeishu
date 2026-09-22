@@ -1,0 +1,35 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+**/secrets/
+**/tokens/
+
+# Lark / Feishu runtime tokens
+.lark/
+.lark-mcp/
+**/user_access_token*
+**/tenant_access_token*
+
+# Polling watermarks & local state (may contain chat / message IDs)
+state/watermarks.json
+state/*.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Node / logs
+node_modules/
+npm-debug.log*
+yarn-error.log*
+*.log
+dist/
+coverage/
