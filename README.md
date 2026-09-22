@@ -44,7 +44,10 @@ skills/feishu-send/SKILL.md      # 代发 Skill
 skills/feishu-poll-reply/SKILL.md# 轮询回复 Skill
 routines/feishu-poll-reply.md    # 可粘贴 Routine + cron 建议
 state/watermarks.example.json    # 水位线文件形状示例
+scripts/check-scaffold.sh        # 可选：检查文件齐全与示例 JSON
 ```
+
+本地检查：`./scripts/check-scaffold.sh`
 
 ## 前置条件
 
